@@ -1,6 +1,5 @@
 import React, {Component} from "react"
-import classnames from 'classnames';
-//import style from "./pagination.css"
+import style from "./pagination.css"
 
 class Pagination extends Component{
     constructor(props){
@@ -25,8 +24,8 @@ class Pagination extends Component{
         const Pages = this.create.bind(this)();
         console.log(Pages)
         return(
-            <div >
-                <ul>
+            <div className = { style.main }>
+                <ul className = { style.page }>
                     {Pages}
                 </ul>
             </div>

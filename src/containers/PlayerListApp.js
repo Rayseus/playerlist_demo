@@ -3,8 +3,7 @@ import styles from './PlayerListApp.css';
 import { connect } from 'react-redux';
 
 import { addPlayer, deletePlayer, starPlayer } from '../actions/PlayersActions';
-import { PlayerList, AddPlayerInput } from '../components';
-import Pagination from '../components/Pagination'
+import { PlayerList, AddPlayerInput, Pagination } from '../components';
 
 class PlayerListApp extends Component {
   render() {
