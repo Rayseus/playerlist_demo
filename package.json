@@ -20,7 +20,7 @@
     "rpaging": "0.0.5"
   },
   "devDependencies": {
-    "react-scripts": "3.4.0"
+    "react-scripts": "5.0.1"
   },
   "browserslist": [
     ">0.2%",
